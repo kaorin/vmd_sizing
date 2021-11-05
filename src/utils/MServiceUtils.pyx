@@ -2,8 +2,10 @@
 #
 import numpy as np # noqa
 import math # noqa
-import numpy as np
-cimport numpy as np
+#import numpy as np
+#cimport numpy as np
+import cupy as np
+cimport cupy as np
 from libc.math cimport sin, cos, acos, atan2, asin, pi, sqrt
 
 from module.MParams import BoneLinks # noqa
