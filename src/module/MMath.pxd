@@ -1,8 +1,10 @@
 # -*- coding: utf-8 -*-
 #
 import math
-import numpy as np
-cimport numpy as np
+#import numpy as np
+#cimport numpy as np
+import cupy as np
+cimport cupy as np
 cimport libc.math as cmath
 import quaternion # noqa
 

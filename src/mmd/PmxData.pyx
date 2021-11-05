@@ -4,7 +4,8 @@ import _pickle as cPickle
 from abc import ABCMeta, abstractmethod
 from collections import OrderedDict
 import math
-import numpy as np
+#import numpy as np
+import cupy as np
 
 from module.MParams import BoneLinks # noqa
 from module.MMath import MRect, MVector2D, MVector3D, MVector4D, MQuaternion, MMatrix4x4 # noqa

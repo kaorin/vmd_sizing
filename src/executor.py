@@ -6,7 +6,8 @@ import wx
 import sys
 import logging
 import argparse
-import numpy as np
+#import numpy as np
+import cupy as np
 import traceback
 import multiprocessing
 

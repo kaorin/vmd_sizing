@@ -1,6 +1,8 @@
 import math
-import numpy as np
-cimport numpy as np
+#import numpy as np
+#cimport numpy as np
+import cupy as np
+cimport cupy as np
 
 from mmd.PmxData cimport PmxModel, Bone
 from mmd.VmdData cimport VmdMotion, VmdBoneFrame

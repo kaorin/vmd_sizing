@@ -2,7 +2,8 @@
 #
 import math # noqa
 import unittest # noqa
-import numpy as np # noqa
+#import numpy as np
+import cupy as np
 import sys
 import pathlib
 

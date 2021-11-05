@@ -2,7 +2,8 @@
 #
 import os
 import logging # noqa
-import numpy as np
+#import numpy as np
+import cupy as np
 import concurrent.futures
 from concurrent.futures import ThreadPoolExecutor
 

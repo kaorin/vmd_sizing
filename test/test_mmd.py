@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 #
-import numpy as np
+#import numpy as np
+import cupy as np
 import glob
 import _pickle as cPickle
 from datetime import datetime

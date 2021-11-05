@@ -1,12 +1,12 @@
 @echo off
 rem --- 
-rem ---  vmdƒf[ƒ^‚ÌƒgƒŒ[ƒXƒ‚ƒfƒ‹‚ğ•ÏŠ·
+rem ---  vmdï¿½fï¿½[ï¿½^ï¿½Ìƒgï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½fï¿½ï¿½ï¿½ï¿½ÏŠï¿½
 rem --- 
 
-rem ---  ƒJƒŒƒ“ƒgƒfƒBƒŒƒNƒgƒŠ‚ğÀsæ‚É•ÏX
+rem ---  ï¿½Jï¿½ï¿½ï¿½ï¿½ï¿½gï¿½fï¿½Bï¿½ï¿½ï¿½Nï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½É•ÏX
 cd /d %~dp0
 
 cls
 
-activate vmdsizing_cython && src\setup.bat && python src\executor.py --out_log 1 --verbose 20 --is_saving 1
+activate vmdsizing_cython && src\setup.bat && python src\executor.py --out_log 0 --verbose 20 --is_saving 0
 

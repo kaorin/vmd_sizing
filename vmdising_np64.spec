@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # -*- mode: python -*-
 # VMDサイジング 64bit版
-
+import sys ; sys.setrecursionlimit(sys.getrecursionlimit() * 5)
 block_cipher = None
 
 

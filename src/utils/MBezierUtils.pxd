@@ -1,7 +1,9 @@
 # -*- coding: utf-8 -*-
 #
-import numpy as np
-cimport numpy as np
+#import numpy as np
+#cimport numpy as np
+import cupy as np
+cimport cupy as np
 
 from module.MMath cimport MRect, MVector2D, MVector3D, MVector4D, MQuaternion, MMatrix4x4 # noqa
 

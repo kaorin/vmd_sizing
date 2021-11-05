@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 #
 import os
-import numpy as np
+#import numpy as np
+import cupy as np
 import math
 import itertools
 from libc.math cimport sin, cos, acos, atan2, asin, pi, sqrt
